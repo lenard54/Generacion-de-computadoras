@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body {
+    background: #100dd271 url("../img/dig.jpg") top right no-repeat;
+    background-size: 100vw 200vh;
+    color: rgb(55, 0, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    border: 5px outset rgb(3, 191, 191);
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #d22e2ed3;
+    font-style:italic;
+    font-size: 20px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(189, 8, 8);
+    font-weight: 700;
+}
+.container-form a i{
+    color: rgb(51, 153, 196);
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #3c96c3;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+    background: rgb(28, 170, 218);
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+    background: rgb(28, 170, 218);
+    color: white;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(51, 153, 196);
+    color: rgb(99, 98, 98);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #2803e3;
+}
+.container{
+
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: #2e9bd2d3;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #d9fe03d3;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.container .menu{
+    float: left;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #d4fd05d3;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #400257;
+    padding-bottom: 5px;
+}
