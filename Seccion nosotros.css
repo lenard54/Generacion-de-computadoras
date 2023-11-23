@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display:lex;
+    align-items: 20px;
+    justify-content:center;
+    background: #fdfdfd71 url("../img/dig.jpg") top right no-repeat;
+	background-size: 100vw 130vh;
+	font-family: 'Open Sans', sans-serif;
+	color:  rgba(252, 5, 5, 0.827);
+	}
+
+.about-section{
+    background: url("../img/grupo.jpg") no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding-top: 0%;
+    margin: 50px;
+    float:right;
+    border-style:ridge;
+    border-width: 20px;
+}
+
+.inner-container{
+    width: 45%;
+    float:right;
+    background-color: #050505;
+    padding-bottom: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(225, 255, 0);
+    border-width: 10px;
+    border-style: ridge;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #e9ebe3;
+    line-height: 35px;
+    text-align:left;
+    margin-bottom: 40px;
+    padding-right: 26px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+        
+    }
+}
+.container{
+    max-width: 1200px;
+    min-width: 1200px;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: #2e9bd2d3;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #d9fe03d3;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.container .menu{
+    float: left;
+    line-height: 00px;
+    padding-top: 50px;
+}
+.container .menu a{
+    display:inline-block;
+    padding: 15px;
+    margin-right: 100%;
+    line-height: normal;
+    text-decoration: none;
+    color: #d4fd05d3;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 22px;
+    margin-right: 30px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #400257;
+    padding-bottom: 5px;
+}
