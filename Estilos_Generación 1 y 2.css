@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: rgb(1, 1, 46);
+	background-size: 100vw 130vh;
+	font-family: 'Open Sans', sans-serif;
+	color:  rgba(235, 252, 5, 0.827);
+}
+#container {
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(1, 1, 46);
+    background: url("../img/dig.jpg") top right no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+.img {
+    background: hsla(0, 0%, 27%, 0.443) url("../img/1er.G_1.jpg") no-repeat;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-style: double;
+    border-color: rgb(9, 189, 189);
+    border-width: 20px;
+    padding: 150px; 
+    background-size: cover;
+    
+}
+h1 {
+    font-size: 30px;
+    text-align: left;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.containerh1 {
+    border-width: 5px;
+    border-style: dashed;
+    border-bottom: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 10px;
+}
+header {
+    margin-top: 100px;
+    font-size: 64px;
+}
+
+.article {
+    padding-bottom: 10px;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: quamarine;
+    border-style: dashed;
+    border-width: 5px;
+}
+.text {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    font-size: 20px;
+    text-align: left;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: #2e9bd2d3;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: #d9fe03d3;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.container .menu{
+    float: left;
+    line-height: 100px;
+}
+.container .menu a{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #d4fd05d3;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #400257;
+    padding-bottom: 5px;
+}
